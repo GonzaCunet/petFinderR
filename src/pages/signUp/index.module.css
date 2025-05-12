@@ -1,0 +1,36 @@
+.mainsignup {
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.textContainer {
+  margin: 0 auto;
+  width: 300px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.formularioSignup {
+  margin: 0 auto;
+  width: 300px;
+}
+.signupTitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+}
+.labelText {
+  margin: 0;
+}
+
+.input {
+  border-radius: 10px;
+  height: 50px;
+  width: 335px;
+  border-style: none;
+}

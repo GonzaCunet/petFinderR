@@ -1,0 +1,78 @@
+.mainmascotas {
+  height: 89vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  overflow-y: auto;
+}
+
+.titlemascotas {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+.label-text-mascotas {
+  color: white;
+  font-size: 18px;
+}
+
+.textareaForm {
+  font-size: 18px;
+  border-radius: 10px;
+  width: 335px;
+  border-style: none;
+  padding: 4px;
+  font-family: "Poppins", sans-serif;
+}
+.crucecita {
+  position: absolute;
+  background-color: black;
+  right: 10px;
+  top: 10px;
+  z-index: 5;
+  width: 25px;
+  height: 25px;
+}
+
+.divOpenForm {
+  position: absolute;
+  z-index: 3;
+  background-color: #26302e;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.divCloseForm {
+  display: none;
+  visibility: hidden;
+}
+
+.input {
+  font-size: 18px;
+  border-radius: 10px;
+  height: 50px;
+  width: 335px;
+  border-style: none;
+  padding: 4px;
+}
+.formLabel {
+  color: white;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.formReport {
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}

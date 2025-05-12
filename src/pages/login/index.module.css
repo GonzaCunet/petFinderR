@@ -1,0 +1,55 @@
+.mainingresar {
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  gap: 5px;
+}
+
+.labeltext {
+  margin: 0;
+}
+.iniciartitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+}
+
+.textcontainer {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.imagen {
+  height: 300px;
+  width: 300px;
+}
+.inputingresar {
+  border-radius: 10px;
+  height: 50px;
+  width: 335px;
+  border-style: none;
+}
+
+.textlink {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #5a8fec;
+  text-decoration: none;
+}
+
+.buttoncontainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}

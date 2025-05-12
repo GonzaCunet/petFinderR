@@ -1,0 +1,12 @@
+.misDatosTittle {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+}
+.mainIngresar {
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}

@@ -1,0 +1,10 @@
+.root {
+  width: 270px;
+  height: 50px;
+  border-style: none;
+  border-radius: 10px;
+  background-color: #5a8fec;
+  font-size: 16px;
+  font-family: "Odibee Sans", sans-serif;
+  color: white;
+}

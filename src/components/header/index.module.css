@@ -1,0 +1,63 @@
+.headerEl {
+  margin: 0 auto;
+  background-color: #26302e;
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.logoimagen {
+  width: 30px;
+  height: 30px;
+}
+
+.burgermenuimg {
+  width: 30px;
+  height: 30px;
+}
+
+.burgerdivopen {
+  margin: 0 auto;
+  position: absolute;
+  background-color: black;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.burgerdivclose {
+  display: none;
+  visibility: hidden;
+}
+
+.burgertext {
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+  text-decoration: none;
+}
+.burgertext:hover {
+  cursor: pointer;
+  color: aqua;
+}
+
+.cerrarsesion {
+  color: white;
+  font-size: 22px;
+}
+
+.cerrarsesion:hover {
+  cursor: pointer;
+  color: aqua;
+}
