@@ -17,7 +17,7 @@ interface SelectedPetState {
   fetchDeletePet: (photoURL: any, petId: string) => Promise<void>;
 }
 
-const apiBaseUrl = "http://localhost:3000";
+const apiBaseUrl = "https://petfinder2-0.onrender.com";
 export const useSelectedPets = create<SelectedPetState>((set, get) => ({
   selectedPet: null,
   setSelectedPet: (pet: Pet) =>
