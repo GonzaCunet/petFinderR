@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-const apiBaseUrl = "http://localhost:3000";
+const apiBaseUrl = "https://petfinder2-0.onrender.com/";
 export interface Pet {
   id: string;
   name: string;
